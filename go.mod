@@ -3,6 +3,8 @@ module github.com/hashicorp/packer-plugin-sdk
 require (
 	github.com/aws/aws-sdk-go v1.36.5
 	github.com/dylanmei/winrmtest v0.0.0-20190225150635-99b7fe2fddf1
+	github.com/fatih/camelcase v1.0.0
+	github.com/fatih/structtag v1.0.0
 	github.com/gofrs/flock v0.8.0
 	github.com/google/go-cmp v0.5.2
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
@@ -33,6 +35,7 @@ require (
 	golang.org/x/mobile v0.0.0-20201208152944-da85bec010a2
 	golang.org/x/net v0.0.0-20201209123823-ac852fbbde11
 	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
+	golang.org/x/tools v0.0.0-20200918232735-d647fc253266
 )
 
 go 1.14
